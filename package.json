@@ -1,0 +1,20 @@
+{
+  "name": "hex",
+  "version": "0.1.0",
+  "description": "+++ Ant powered blogging +++",
+  "main": "hex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "blogging",
+    "hex"
+  ],
+  "author": "Chris Pearson",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.4.3",
+    "express": "^4.12.3"
+  }
+}
