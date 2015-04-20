@@ -16,5 +16,14 @@
   "dependencies": {
     "compression": "^1.4.3",
     "express": "^4.12.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themaninthesuitcase/hex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/themaninthesuitcase/hex/issues"
+  },
+  "homepage": "https://github.com/themaninthesuitcase/hex#readme"
 }
