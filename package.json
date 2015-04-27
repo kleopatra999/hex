@@ -4,7 +4,7 @@
   "description": "+++ Ant powered blogging +++",
   "main": "hex.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter nyan --check-leaks --throw-deprecation test"
   },
   "keywords": [
     "blog",
@@ -17,7 +17,9 @@
     "compression": "^1.4.3",
     "express": "^4.12.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/themaninthesuitcase/hex.git"
