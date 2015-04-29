@@ -33,7 +33,7 @@ describe('PostCache', function () {
       cache.add(new Post('testpost'));
       cache.add(new Post('testpost'));
 
-  	 cache.length().should.equal(1);
+     cache.length().should.equal(1);
     });
 
     it('should not allow execeeding the max cache size');
@@ -42,10 +42,10 @@ describe('PostCache', function () {
   describe('.get', function(){
     it('should be able to get an item', function(){
       var slug = 'testpost';
-      
+
       cache.add(new Post(slug));
       cache.length().should.equal(1);
- 
+
       var p = cache.get(slug);
       p.should.exist;
       p.should.have.property('slug', slug);
@@ -62,9 +62,9 @@ describe('PostCache', function () {
       cache.add(new Post('testpost'));
       cache.length().should.equal(1);
       cache.remove('testpost');
-      cache.length().should.equal(0);	  
+      cache.length().should.equal(0);
     });
-    
+
     it('should be return undefined getting a removed item');
   });
 
@@ -75,12 +75,12 @@ describe('PostCache', function () {
       cache.length().should.equal(1);
       cache.add(new Post('two'));
       cache.length().should.equal(2);
-      
+
       for (var i = 0 ;i < 30 ; i++) {
         cache.add(new Post(i.toString()));
       }
       cache.length().should.equal(32);
-      
+
       cache.clear();
       cache.length().should.equal(0);
     });
@@ -92,7 +92,7 @@ describe('PostCache', function () {
         cache.add(new Post(i.toString()));
       }
       cache.length().should.equal(30);
-      
+
       cache.clear();
       cache.length().should.equal(0);
     });
