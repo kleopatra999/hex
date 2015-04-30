@@ -65,7 +65,15 @@ describe('PostCache', function () {
       cache.length().should.equal(0);
     });
 
-    it('should be return undefined getting a removed item');
+    it('should be return undefined getting a removed item', function () {
+      var slug = 'testpost';
+      cache.add(new Post(slug));
+      cache.length().should.equal(1);
+      cache.remove(slug);
+      cache.length().should.equal(0);
+      var p = cache.get(slug);
+      should.not.exist(p);
+    });
   });
 
   describe('.length', function(){
