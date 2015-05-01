@@ -1,6 +1,6 @@
 #Hex ![travis-ci.org](https://travis-ci.org/themaninthesuitcase/hex.svg)
 
-**Hex** is a basic [node.js](https://nodejs.org) powered blog engine.  It is named after the [magical computer](http://en.wikipedia.org/wiki/Hex_(Discworld) in the Discworld books by Sir Terry Pratchett.
+**Hex** is a basic [node.js](https://nodejs.org) powered blog engine.  It is named after the [magical computer](http://en.wikipedia.org/wiki/Hex_(Discworld)) in the Discworld books by Sir Terry Pratchett.
 
 > So Hex here has caught daftness off the Bursar,' said Ridcully. 'Simple. Real stupidity beats artificial intelligence every time.
 >
