@@ -1,3 +1,5 @@
+/// <reference path="../typings/mocha/mocha.d.ts"/>
+
 var should = require('should');
 
 
