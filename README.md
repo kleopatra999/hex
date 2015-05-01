@@ -26,9 +26,3 @@ In his memory this blog engine implements the [X-Clacks-Overhead](http://www.gnu
 
 ## Acknowledgements
 Hex ~~is a fairly close rip off of~~ was inspired by [camel](https://github.com/cliss/camel) by [Casey Liss](http://www.caseyliss.com).
-
-[njs]: 
-[hex]: 
-[gnu]: 
-[camel]: 
-[liss]: 
