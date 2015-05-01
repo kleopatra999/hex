@@ -1,6 +1,6 @@
 #Hex ![travis-ci.org](https://travis-ci.org/themaninthesuitcase/hex.svg)
 
-**Hex** is a basic [node.js][njs] powered blog engine.
+**Hex** is a basic [node.js](https://nodejs.org) powered blog engine.  It is named after the [magical computer](http://en.wikipedia.org/wiki/Hex_(Discworld) in the Discworld books by Sir Terry Pratchett.
 
 > So Hex here has caught daftness off the Bursar,' said Ridcully. 'Simple. Real stupidity beats artificial intelligence every time.
 >
@@ -22,13 +22,13 @@ The default 500 error template uses a look and feel to simulate early green on b
 ## GNU Terry Pratchett
 The more astute amongst you may have noticed the small theme running through this application.  At the time I began this project Sir Terry Pratchett had not long passed away.  His writing was what got me into reading and by extension into learning.  With out him and my mother buying me his books I would be a rather different person today.
 
-In his memory this blog engine implements the [X-Clacks-Overhead][gnu] http header.
+In his memory this blog engine implements the [X-Clacks-Overhead](http://www.gnuterrypratchett.com) http header.
 
 ## Acknowledgements
-Hex ~~is a fairly close rip off of~~ was inspired by [camel][camel] by [Casey Liss][liss].
+Hex ~~is a fairly close rip off of~~ was inspired by [camel](https://github.com/cliss/camel) by [Casey Liss](http://www.caseyliss.com).
 
-[njs]: (https://nodejs.org)
-[hex]: (http://en.wikipedia.org/wiki/Hex_(Discworld)
-[gnu]: (http://www.gnuterrypratchett.com)
-[camel]: (https://github.com/cliss/camel)
-[liss]: (http://www.caseyliss.com)
+[njs]: 
+[hex]: 
+[gnu]: 
+[camel]: 
+[liss]: 
