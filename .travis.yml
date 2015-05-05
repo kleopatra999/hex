@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-    - "0.12"
+- '0.12'
+deploy:
+  provider: heroku
+  api_key:
+    secure: RfWBgznYd1XNfkbAQxzl9qHSAScpZIY3CghN9wClHDJ3qG9Er72iksC7C9p7JkefmU5PAaFI1fxESs0Ux+Eh52aisnLon6jk0PO7kaVz1Q2iva9f3cnToNQ4cXcLahgIhTe9tnBa+4L6syfQzr73caMv2GgpFXCJ5a6HW4ADkxQ=
+  app: hexdemo
+  on:
+    repo: themaninthesuitcase/hex
