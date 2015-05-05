@@ -4,7 +4,7 @@
   "description": "+++ Ant powered blogging +++",
   "main": "hex.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter nyan --check-leaks --throw-deprecation"
+    "test": "./node_modules/.bin/mocha --check-leaks --throw-deprecation"
   },
   "keywords": [
     "blog",
