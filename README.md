@@ -1,4 +1,4 @@
-#Hex ![travis-ci.org](https://travis-ci.org/themaninthesuitcase/hex.svg)
+#Hex [![travis-ci.org](https://travis-ci.org/themaninthesuitcase/hex.svg)](https://travis-ci.org/themaninthesuitcase/hex)
 
 **Hex** is a basic [node.js](https://nodejs.org) powered blog engine.  It is named after the [magical computer](http://en.wikipedia.org/wiki/Hex_(Discworld)) in the Discworld books by Sir Terry Pratchett.
 
